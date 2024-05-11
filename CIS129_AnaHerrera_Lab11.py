@@ -1,6 +1,6 @@
 with open('grades.txt', 'w') as file:
     while True:
-        grade = input("Enter a grade (or 'e' to exit): ")
+        grade = input("enter a grade (or 'e' to exit): ")
         if grade.lower() == 'e':
             break
         file.write(grade + '\n')
