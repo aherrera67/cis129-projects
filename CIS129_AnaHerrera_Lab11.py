@@ -24,7 +24,7 @@ print("average:", average)
 
 import csv 
 
-with open('grades.cvs', 'w', newline='') as csvfile:
+with open('grades.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
 
     while True:
